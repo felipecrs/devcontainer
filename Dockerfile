@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04 AS base
+FROM mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04 AS base
 
 SHELL [ "/bin/bash", "-euxo", "pipefail", "-c" ]
 
